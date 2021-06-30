@@ -69,3 +69,18 @@
       <!-- /Header -->
     </body>
 </html>
+<script>
+    const profileMenuButton = document.getElementById("profileMenuButton");
+    const profileMenu = document.getElementById("profileMenu");
+
+    const mobileMenuButton = document.getElementById("mobileMenuButton");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    profileMenuButton.addEventListener("click", () => {
+        profileMenu.hidden = !profileMenu.hidden;
+    });
+
+    mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.hidden = !mobileMenu.hidden
+    });
+</script>
