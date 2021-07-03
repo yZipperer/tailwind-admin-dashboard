@@ -266,13 +266,13 @@
         <!-- Main Overview Grid -->
         <div class="container mx-auto py-10 md:w-4/5 w-11/12 px-6">
             <div class="w-full h-full rounded border-solid border-2 border-gray-900">
-                <div class="grid grid-cols-1 gap-2 md:grid-cols-3 md:gap-4 border-solid border-2 border-blue-900">
+                <div class="grid grid-cols-1 gap-1 lg:grid-cols-3 md:gap-3 lg:gap-4 border-solid border-2 border-blue-900">
                     <!-- Sales YTD -->
-                    <div class="">
+                    <div class="col-span-2 lg:col-span-1">
                         <div class="shadow-xl rounded-2xl w-full h-full p-4 bg-white">
                             <div class="flex items-center">
                                 <span class="bg-green-500 p-2 h-6 w-6 rounded-full relative flex items-center">
-                                    <i class="fas fa-dollar-sign pt-1 h-6 w-6"></i>
+                                    <i class="fas fa-dollar-sign pt-1 h-6 w-6 text-white"></i>
                                 </span>
                                 <p class="text-md text-gray-700 ml-2">
                                     Sales (YTD) / Goal
@@ -286,16 +286,81 @@
                                     <div class="absolute top-0 h-2 left-0 rounded bg-green-500 w-2/5">
                                     </div>
                                 </div>
-                            </div>
+                            </div>   
                         </div>
                     </div>
                     <!-- /Sales YTD -->
-                    <div class="border-solid border-2 border-green-900 h-1/2">2</div>
-                    <div class="border-solid border-2 border-green-900 h-1/2">5</div>
-                    <div class="border-solid border-2 border-green-900 h-1/2">5</div>
+
+                    <!-- Dashboard Widgets -->
                     <div class="border-solid border-2 border-green-900 col-span-2">
-                        
+                        <div class="flex items-start justify-center pt-0 min-w-screen">
+                            <div class="flex flex-wrap w-full p-0">
+                                <!-- Dashboard Widget Orders -->
+                                <div class="w-full px-0 lg:pr-2 lg:w-1/2 pb-2">
+                                    <div class="relative flex items-center px-5 md:px-4 py-2 overflow-hidden rounded-md shadow-sm bg-white">
+                                        <span class="absolute top-0 left-0 w-2 h-full bg-purple-500"></span>
+                                        <div class="p-3 rounded-full bg-purple-500">
+                                            <i class="fas fa-shopping-bag text-white w-5 h-5 text-center"></i>
+                                        </div>
+                                        <div class="mx-5">
+                                            <h4 class="text-2xl lg:text-xl font-semibold text-gray-800">157</h4>
+                                            <div class="text-gray-700">Orders (YTD)</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Dashboard Widget Orders-->
+
+                                <!-- Dashboard Widget Total Products-->
+                                <div class="w-full px-0 lg:w-1/2 pb-2">
+                                    <div class="relative flex items-center px-5 md:px-4 py-2 overflow-hidden rounded-md shadow-sm bg-white">
+                                        <span class="absolute top-0 left-0 w-2 h-full bg-blue-500"></span>
+                                        <div class="p-3 rounded-full bg-blue-500">
+                                            <i class="fas fa-sitemap text-white w-5 h-5 text-center"></i>
+                                        </div>
+                                        <div class="mx-5">
+                                            <h4 class="text-2xl lg:text-xl font-semibold text-gray-800">43</h4>
+                                            <div class="text-gray-700">Total Products</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Dashboard Widget Total Products-->
+
+                                <!-- Dashboard Widget Average Order-->
+                                <div class="w-full px-0 lg:pr-2 lg:w-1/2 pb-2 lg:pb-0">
+                                    <div class="relative flex items-center px-5 md:px-4 py-2 overflow-hidden rounded-md shadow-sm bg-white">
+                                        <span class="absolute top-0 left-0 w-2 h-full bg-green-500"></span>
+                                        <div class="p-3 rounded-full bg-green-500">
+                                            <i class="fas fa-money-bill-wave text-white w-5 h-5 text-center"></i>
+                                        </div>
+                                        <div class="mx-5">
+                                            <h4 class="text-2xl lg:text-xl font-semibold text-gray-800">$23.07</h4>
+                                            <div class="text-gray-700">Average Order</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Dashboard Widget Average Order-->
+
+                                <!-- Dashboard Widget Total Inventory-->
+                                <div class="w-full px-0 lg:w-1/2 pb-0">
+                                    <div class="relative flex items-center px-5 md:px-4 py-2 overflow-hidden rounded-md shadow-sm bg-white">
+                                        <span class="absolute top-0 left-0 w-2 h-full bg-blue-500"></span>
+                                        <div class="p-3 rounded-full bg-blue-500">
+                                            <i class="fas fa-sitemap text-white w-5 h-5 text-center"></i>
+                                        </div>
+                                        <div class="mx-5">
+                                            <h4 class="text-2xl lg:text-xl font-semibold text-gray-800">1,267</h4>
+                                            <div class="text-gray-700">Total Inventory</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Dashboard Widget Total Inventory-->
+                            </div>
+                        </div>
                     </div>
+                    <!-- /Dashboard Widgets -->
+                    <div class="border-solid border-2 border-green-900 h-1/2">5</div>
+                    <div class="border-solid border-2 border-green-900 h-1/2">5</div>
+                    <div class="border-solid border-2 border-green-900 col-span-2"></div>
                     <div class="border-solid border-2 border-green-900">7</div>
                     <div class="border-solid border-2 border-green-900">8</div>
                     <div class="border-solid border-2 border-green-900">9</div>
