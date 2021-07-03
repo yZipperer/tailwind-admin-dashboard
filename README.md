@@ -5,6 +5,12 @@ This is a FREE admin dashboard made with Tailwind CSS. It includes:
   - Top navigation bar
   - Side navigation bar
   - grid container
+  - Total YTD Sales Overview
+  - Dashboard Widgets:
+    - Total YTD Orders
+    - Average Order Total
+    - Total Products
+    - Total Inventory
 ```
 
 # Overview Page
