@@ -17,4 +17,4 @@ Demo [here](https://yzipperer.github.io/tailwind-admin-dashboard/)
 
 # Overview Page
 
-![Overview](https://github.com/yZipperer/tailwind-admin-dashboard/blob/main/images/github-overview-page.PNG)
+![Overview](https://github.com/yZipperer/tailwind-admin-dashboard/blob/main/images/Readme/github-overview-page.PNG)
