@@ -21,6 +21,10 @@ const data = {
         '#FBBF24',
         '#6B7280'
         ],
+        borderColor: [
+            'FB8F24'
+        ],
+        borderWidth: 2
     }]
 };
 
