@@ -13,16 +13,16 @@ const data = {
         label: 'Orders By Month',
         data: [34, 43, 26, 45, 48, 65, 23],
         backgroundColor: [
-        '#6B7280',
-        '#FBBF24',
-        '#6B7280',
-        '#FBBF24',
-        '#6B7280',
-        '#FBBF24',
-        '#6B7280'
+        '#1F2937',
+        '#1F2937',
+        '#1F2937',
+        '#1F2937',
+        '#1F2937',
+        '#1F2937',
+        '#1F2937'
         ],
         borderColor: [
-            'FB8F24'
+            '#111827'
         ],
         borderWidth: 2
     }]
