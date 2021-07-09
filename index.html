@@ -268,9 +268,9 @@
         <!-- Main Overview Grid -->
         <div style="height: 93.445vh;" class="container mx-auto py-10 md:w-4/5 w-11/12 px-6">
             <div class="w-full h-full rounded border-solid border-2 border-gray-900 overflow-auto">
-                <div class="grid grid-cols-1 gap-1 lg:grid-cols-3 md:gap-3 lg:gap-4 border-solid border-2 border-blue-900">
+                <div class="grid grid-cols-1 gap-0 lg:grid-cols-3 md:gap-3 lg:gap-4 border-solid border-2 border-blue-900">
                     <!-- Sales YTD -->
-                    <div class="col-span-2 lg:col-span-1">
+                    <div class="col-span-2 lg:col-span-1 mb-2 sm:mb-0">
                         <div class="shadow-xl rounded-2xl w-full h-full p-4 bg-white">
                             <div class="flex items-center">
                                 <span class="bg-green-500 p-2 h-6 w-6 rounded-full relative flex items-center">
@@ -343,7 +343,7 @@
                                 <!-- /Dashboard Widget Average Order-->
 
                                 <!-- Dashboard Widget Total Inventory-->
-                                <div class="w-full px-0 lg:w-1/2 pb-0">
+                                <div class="w-full px-0 lg:w-1/2 pb-2 lg:pb-0">
                                     <div class="relative flex items-center px-5 md:px-4 py-2 overflow-hidden rounded-md shadow-lg bg-white">
                                         <span class="absolute top-0 left-0 w-2 h-full bg-blue-500"></span>
                                         <div class="p-3 rounded-full bg-blue-500">
@@ -385,7 +385,7 @@
                     <!-- /Mobile Orders By Month -->
 
                     <!-- Revenue Chart -->
-                    <div class="border-solid border-2 border-green-900 row-span-2">
+                    <div class="border-solid border-2 border-green-900 mb-2 sm:mb-0">
                         <div class="w-full">
                             <div class="bg-white border rounded-md flex-col flex">
                                 <div class="px-4 py-3 pb-0 flex-auto">
@@ -545,7 +545,7 @@
                     <!-- /Mobile Sales -->
 
                     <!-- Recent Orders -->
-                    <div class="border-solid border-2 border-green-900 bg-gray-100">
+                    <div class="border-solid border-2 border-green-900 bg-gray-100 hidden sm:inline-block">
                         <table class="rounded-lg w-5/6 mx-auto text-gray-800 bg-white overflow-auto">
                             <tr class="text-left border-b-2 border-gray-300">
                                 <th class="px-4 py-3">OrderID</th>
@@ -628,6 +628,56 @@
                         </table>
                     </div>
                     <!-- /Recent Orders -->
+
+                    <!-- Mobile Recent Orders -->
+                    <div class="border-solid border-2 border-green-900 bg-white sm:hidden w-full">
+                        <table class="rounded-lg w-5/6 mx-auto text-gray-800 bg-white overflow-auto">
+                            <tr class="text-left border-b-2 border-gray-300">
+                                <div class="px-4 py-3 text-center">Recent Orders</div>
+                            </tr>
+                              
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x26dfg</td>
+                                <td class="px-4 py-3 text-green-500">+$24.56</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x01cnw</td>
+                                <td class="px-4 py-3 text-green-500">+$9.35</td>
+                            </tr> 
+    
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x34reg</td>
+                                <td class="px-4 py-3 text-green-500">+$34.83</td>
+                            </tr> 
+    
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x07wqe</td>
+                                <td class="px-4 py-3 text-green-500">+$9.74</td>
+                            </tr> 
+    
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x12fal</td>
+                                <td class="px-4 py-3 text-green-500">+$16.52</td>
+                            </tr> 
+    
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x02yew</td>
+                                <td class="px-4 py-3 text-green-500">+$3.67</td>
+                            </tr> 
+
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x04xme</td>
+                                <td class="px-4 py-3 text-green-500">+$5.78</td>
+                            </tr> 
+
+                            <tr class="border-b border-gray-200">
+                                <td class="px-4 py-3">5x09mrf</td>
+                                <td class="px-4 py-3 text-green-500">+$18.42</td>
+                            </tr> 
+                            
+                        </table>
+                    </div>
+                    <!-- /Mobile Recent Orders -->
                   </div>
             </div>
         </div>
