@@ -18,3 +18,7 @@ Demo [here](https://yzipperer.github.io/tailwind-admin-dashboard/)
 # Overview Page
 
 ![Overview](https://github.com/yZipperer/tailwind-admin-dashboard/blob/main/images/Readme/github-overview-page.PNG)
+
+## Other Tailwind Projects:
+
+TailwindCSS eCommerce Store Landing Page: Demo (Unavailable) > [Source Code](https://github.com/yZipperer/tailwind-store)
