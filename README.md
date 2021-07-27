@@ -21,4 +21,4 @@ Demo [here](https://yzipperer.github.io/tailwind-admin-dashboard/)
 
 ## Other Tailwind Projects:
 
-TailwindCSS eCommerce Store Landing Page: Demo (Unavailable) > [Source Code](https://github.com/yZipperer/tailwind-store)
+TailwindCSS eCommerce Store: [Demo](https://yzipperer.github.io/tailwind-store/) > [Source Code](https://github.com/yZipperer/tailwind-store)
